@@ -1,0 +1,166 @@
+* {
+    overflow-x: hidden; 
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex; 
+    justify-content: space-between; 
+    list-style: none;  
+    height: 10vh;  
+    width: 100vw; 
+    box-shadow: black; 
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.389);
+}   
+.logo {
+    width: 20%; 
+    height: 100%; 
+    padding-left: 40px;
+} 
+.navlinks {
+    display: flex; 
+    justify-content: space-between; 
+    width: 50%;  
+    padding-right: 70px; 
+    font-size: 25px; 
+}
+li a{
+    text-decoration: none; 
+    color: black;  
+}    
+.fdiv {
+    padding-top: 40px; 
+    display: flex;
+}
+button {
+    background-color: rgba(12, 95, 175, 1); 
+    color: white; 
+    border-radius: 5px; 
+    font-size: 20px; 
+    border: none; 
+    width: 10%; 
+    height: 5vh;
+} 
+.td {
+    width: 50vw; 
+    padding-left: 40px;
+}
+.fimg {
+    width: 100vw; 
+    padding-right: 20px;
+}  
+.of { 
+    padding-right: 40px; 
+}
+.info {
+    width: 100vw;
+}  
+.sdiv {
+    padding-left: 40px; 
+    padding-right: 40px;
+}
+.org {
+    display: flex;  
+    justify-content: space-between;
+    width: 100%; 
+    height: 20%; 
+    padding-left: 40px;
+    padding-right: 40px;
+}  
+.events {
+    padding-left: 40px; 
+    height: 100vh;
+}
+.cards {
+    display: flex;  
+    justify-content: space-between;  
+    height: 60%;  
+    padding-right: 40px;
+}  
+.cardinfo {
+    background-color: rgba(12, 95, 175, 1); 
+    color: white;   
+    border-radius: 10px;
+    width: 30%; 
+    height: 100%; 
+    box-shadow: black; 
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.389);
+}     
+li {
+    list-style: none;
+} 
+.fcard {
+    padding-left: 30px; 
+    padding-top: 50px;
+}
+.webinar { 
+    text-align: center;
+    width: 25%;  
+    height: 30%;
+    background-color: white; 
+    color: rgba(12, 95, 175, 1); 
+    border-radius: 5px; 
+    font-size: 1vmax;
+} 
+.scard {
+    padding-left: 30px; 
+    padding-top: 50px;
+} 
+.tcard {
+    padding-left: 30px; 
+    padding-top: 50px;
+}  
+.revents {
+    padding-right: 40px; 
+    width: 100vw;
+} 
+.rp {
+    display: flex;  
+    flex-direction: row-reverse;
+}   
+.dp {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.re {
+    padding-left: 40px; 
+    font-size: 8vmin;
+}
+.dd {
+    padding-left: 40px;   
+    font-size: 8vmin;  
+
+} 
+.pp {
+    padding-left: 40px; 
+    font-size: 3vmin; 
+    font-weight: lighter;
+} 
+.rpg {
+    display: flex;  
+} 
+.cp { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+} 
+.footer {
+    background-color: rgba(12, 95, 175, 1);   
+    padding-left: 40px; 
+    padding-right: 40px;
+}   
+.column {
+    display: flex; 
+    justify-content: space-between;
+}
+.fli {
+    font-size: 30px; 
+    margin-top: 60px; 
+    list-style: none;  
+    color: rgb(255, 255, 255);
+}
+.con {
+    font-size: 30px; 
+    color: rgb(255, 255, 255)
+} 

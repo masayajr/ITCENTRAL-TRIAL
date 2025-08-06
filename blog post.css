@@ -1,0 +1,139 @@
+* {
+    overflow-x: hidden; 
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex; 
+    justify-content: space-between; 
+    list-style: none;  
+    /* background-color: aqua;
+    border: bottom 50px;  */
+    height: 10vh;  
+    width: 100vw; 
+    box-shadow: black; 
+    /* -webkit-box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.389);
+}   
+.logo {
+    width: 20%; 
+    height: 100%; 
+    padding-left: 40px;
+} 
+.navlinks {
+    display: flex; 
+    justify-content: space-between; 
+    width: 50%;  
+    padding-right: 70px; 
+    font-size: 25px; 
+}
+li a{
+    text-decoration: none; 
+    color: black;  
+}   
+.firstinfo {
+    padding-top: 40px; 
+    padding-left: 40px;
+} 
+.fimg {
+    width: 95%; 
+    padding-left: 40px;
+} 
+.first {
+    text-align: center; 
+    font-size: 30px; 
+    font-weight: lighter;
+}   
+.special {
+    text-align: start; 
+}
+.second {
+    padding-left: 40px; 
+    color: rgba(12, 95, 175, 1); 
+    display: flex; 
+    justify-content: space-between; 
+    width: 40%;
+}  
+.line {
+    height: 1%;
+} 
+/* .simg {
+    width: 90%;  
+    height: 40%;
+    padding-left: 40px;
+}  */
+.simg {
+    width: 95%;
+    height: 40%; 
+    padding-left: 40px; 
+} 
+.third {
+     text-align: center; 
+    font-size: 30px; 
+    font-weight: lighter;
+} 
+.fourth {
+    padding-left: 40px; 
+    padding-right: 40px; 
+}
+a {
+    color: black; 
+    text-decoration: none;
+} 
+.secondimg {
+    display: flex;
+    justify-content: space-between;   
+    width: 100%;
+}  
+.vr {
+    width: 70%; 
+    display: flex;  
+    align-items: start;
+    flex-direction: column; 
+}  
+.tech {
+    width: 70%;  
+    /* background-color: aqua;  */
+    display: flex;  
+    align-items: start;
+    flex-direction: column; 
+} 
+.vrimg {
+    width: 85%;
+}
+.techimg {
+    width: 85%;  
+    padding-left: 100px;
+}   
+.brief {  
+    display: flex; 
+    flex-direction: column; 
+    align-items: start;
+    align-items: flex-start;
+}
+.technotes {
+    padding-left: 100px;
+} 
+h2 {
+    font-size: 35px; 
+    font-weight: lighter;
+}   
+.footer {
+    background-color: rgba(12, 95, 175, 1);   
+    padding-left: 40px; 
+    padding-right: 40px;
+}   
+.column {
+    display: flex; 
+    justify-content: space-between;
+}
+.fli {
+    font-size: 30px; 
+    margin-top: 60px; 
+    list-style: none;  
+    color: rgb(255, 255, 255);
+}
+.con {
+    font-size: 30px; 
+    color: rgb(255, 255, 255)
+} 
